@@ -5,6 +5,6 @@ genes = ["bla", "blub", "foo", "bar", "baz"]
 species = ["mouse", "horse", "bee", "owl", "rabbit"]
 
 # Find the species for gene 'foo'
-for i, gene in enumerate(genes):
+for gene, spec in zip(genes, species):
     if gene == 'foo':
-        print(species[i])
+        print(spec)
