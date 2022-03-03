@@ -7,4 +7,4 @@ species = ["mouse", "horse", "bee", "owl", "rabbit"]
 # Find the species for gene 'foo'
 for i, gene in enumerate(genes):
     if gene == 'foo':
-        printe(species[i])
+        print(species[i])
