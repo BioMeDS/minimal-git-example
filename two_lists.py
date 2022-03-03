@@ -5,6 +5,5 @@ genes = ["bla", "blub", "foo", "bar", "baz"]
 species = ["mouse", "horse", "bee", "owl", "rabbit"]
 
 # Find the species for gene 'foo'
-for gene, spec in zip(genes, species):
-    if gene == 'foo':
-        print(spec)
+pos = genes.index('foo')
+print(species[pos])
