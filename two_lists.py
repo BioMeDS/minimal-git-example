@@ -5,8 +5,6 @@ genes = ["bla", "blub", "foo", "bar", "baz"]
 species = ["mouse", "horse", "bee", "owl", "rabbit"]
 
 # Find the species for gene 'foo'
-i = 0
-for gene in genes:
-    if gene == 'foo':
+for i in range(len(genes)):
+    if genes[i] == 'foo':
         print(species[i])
-    i += 1
