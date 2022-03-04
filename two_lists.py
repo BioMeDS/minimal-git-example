@@ -6,5 +6,5 @@ species = ["mouse", "horse", "bee", "owl", "rabbit"]
 
 # Find the species for gene 'foo'
 for gene, spec in zip(genes, species):
-    if gene == 'foo':
+    if gene == 'foo'
         print(spec)
